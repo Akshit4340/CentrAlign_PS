@@ -1,0 +1,25 @@
+# Python virtual environments & bytecode
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables & local secrets
+.env
+
+# Database files
+*.db
+*.sqlite3
+
+# Uploads & temporary artifacts
+uploads/*
+!uploads/.gitkeep
+samples/eval_*
+
+# Testing & IDE caches
+.pytest_cache/
+.coverage
+htmlcov/
+.idea/
+.vscode/
