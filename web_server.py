@@ -356,9 +356,4 @@ async def serve_index():
 
 if __name__ == "__main__":
     import uvicorn
-    print("\n" + "="*70)
-    print("  🚀 CentrAlign AI Autonomous Task Platform Live")
-    print("  👉 CentrAlign Autonomous Workspace: http://127.0.0.1:8500")
-    print("  👉 Internal Ledger Hub:         http://127.0.0.1:8000")
-    print("="*70 + "\n")
     uvicorn.run(app, host="127.0.0.1", port=8500)
