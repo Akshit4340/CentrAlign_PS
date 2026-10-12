@@ -4,7 +4,7 @@
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 
 1. **Local-First LLM Architecture (Ollama + Qwen)**
    - Powered primarily by **Ollama** running local open-weights reasoning models (e.g., `qwen2.5-coder:7b` / `qwen2.7:7b`).
@@ -15,8 +15,8 @@
    - High-end editorial aesthetic built on architectural off-white (`#F4F4F0`) and rich charcoal (`#111111`).
    - Anti-AI design: strictly no glowing gradient blobs, no drop shadows, and no glassmorphism.
    - Dual Operational Modes:
-     - ⚡ **Autonomous AI Task Worker**: Accepts natural language goals, extracts entities, operates the browser, and executes workflows.
-     - 🔍 **Grounded Multimodal RAG QA**: Ingests invoices/contracts and answers complex queries with chunk-level citations and grounded entity extraction.
+     -  **Autonomous AI Task Worker**: Accepts natural language goals, extracts entities, operates the browser, and executes workflows.
+     -  **Grounded Multimodal RAG QA**: Ingests invoices/contracts and answers complex queries with chunk-level citations and grounded entity extraction.
 
 3. **Advanced Multimodal RAG Engine (`src/advanced_rag.py`)**
    - **Document Parsers**: Native PDF parsing (`pypdf`), visual image analysis (`PIL`), and text loaders.
@@ -42,7 +42,7 @@
 
 ---
 
-## 🚀 Quick Start Guide
+##  Quick Start Guide
 
 ### 1. Start Local Ollama LLM
 Ensure Ollama is running and your model is pulled:
@@ -79,7 +79,7 @@ python web_server.py
 
 ---
 
-## 🧪 Test Scenarios in the Web UI
+##  Test Scenarios in the Web UI
 
 ### Scenario A: 1-Click Autonomous Invoice Entry (CentrAlign PS)
 1. Click any benchmark sample: **Company X (PDF: $450.75)** or **Company X (Image Receipt)**.
